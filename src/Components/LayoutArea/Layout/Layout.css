@@ -1,0 +1,22 @@
+.Layout {
+	height: 100%;
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: 2fr 25fr;
+    grid-template-rows: 10% 85% 5%;
+}
+
+header, footer {
+    grid-column: span 2;
+    background-color: lightgray !important;
+}
+
+main {
+    overflow: auto;
+}
+
+aside {
+    padding-top: 120px;
+    border-right: 4px solid lightblue;
+}
+
